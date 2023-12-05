@@ -4,7 +4,7 @@ metadata:
   name: master
   namespace: argocd
 spec:
-  project: k8s-test
+  project: default
   source:
     repoURL: https://github.com/efthimisxen/k8s-xen-test
     targetRevision: HEAD
