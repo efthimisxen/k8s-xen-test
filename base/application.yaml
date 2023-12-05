@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/efthimisxen/k8s-xen-test
     targetRevision: HEAD
-    path: base
+    path: overlays/staging
   destination:
     server: https://kubernetes.default.svc
     namespace: staging
